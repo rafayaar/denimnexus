@@ -14,14 +14,29 @@
             margin: 0;
             background-color: #f0f0f0;
             font-family: Arial, sans-serif;
+            padding: 20px; /* Adds padding around the content to prevent it from touching the edges */
         }
         h1 {
             color: #333;
             font-size: 2em;
+            text-align: center; /* Ensures the text is centered in all screen sizes */
+            margin: 0.5em 0; /* Adds some vertical space around the heading */
         }
         p {
             color: #666;
             font-size: 1em;
+            text-align: center; /* Ensures the paragraph text is centered */
+            margin: 0.5em 0; /* Adds some vertical space around the paragraph */
+        }
+
+        /* Media queries for responsive adjustments */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em; /* Reduces the font size on smaller screens */
+            }
+            p {
+                font-size: 0.9em; /* Reduces the font size on smaller screens */
+            }
         }
     </style>
 </head>
