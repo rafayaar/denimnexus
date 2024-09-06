@@ -11119,7 +11119,7 @@ header.masthead .masthead-heading {
   position: absolute;
   z-index: 100;
   left: 0;
-  width: 010px;
+  width: 80px;
   height: 80px;
   margin-left: 0;
   text-align: center;
@@ -11261,6 +11261,13 @@ section#contact {
   background-position: center;
 }
 section#contact .section-heading {
+  color: #fff;
+}
+
+section#contact .row p {
+  color: #fff;
+}
+section#contact .row h4 {
   color: #fff;
 }
 section#contact form#contactForm .form-group {
