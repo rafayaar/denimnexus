@@ -1948,6 +1948,9 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .typewrite{
+    font-size: 35px;
+  }
 }
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
@@ -10946,7 +10949,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/home\ page\ 3.jpg");
+  background-image: url("../assets/img/extras/home-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11329,4 +11332,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .navbar-title p{
   margin: auto;
+}
+.typewrite{
+  text-decoration: none;
 }
