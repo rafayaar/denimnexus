@@ -3769,7 +3769,6 @@ textarea.form-control-lg {
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
-  margin-right: var(--bs-navbar-brand-margin-end);
   font-size: var(--bs-navbar-brand-font-size);
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
@@ -10947,7 +10946,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/levis-3.jpg");
+  background-image: url("../assets/img/home\ page\ 3.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11120,7 +11119,7 @@ header.masthead .masthead-heading {
   position: absolute;
   z-index: 100;
   left: 0;
-  width: 80px;
+  width: 010px;
   height: 80px;
   margin-left: 0;
   text-align: center;
@@ -11313,4 +11312,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Catamaran", sans-serif;
+}
+
+.navbar-title{
+  color: #ffc800;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.navbar-title p{
+  margin: auto;
 }
